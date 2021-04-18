@@ -1,0 +1,4 @@
+In Python you can read .csv files
+In Python you can graph plots
+In Python you can read a lot of data very quickly
+In Python you can write the same code in a million different ways
