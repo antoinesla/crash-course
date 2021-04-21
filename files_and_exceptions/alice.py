@@ -9,9 +9,9 @@ def count_words(filename):
         num_words = len(words)
         print(f'{filename} has approximately {num_words} words')
 
-filename = 'frankenstein.txt'
+filename = r'files_and_exceptions\text_files\frankenstein.txt'
 count_words(filename)
-filename = 'great_gatsby.txt'
-count_words(filename)
-filename = 'does_not_exist.txt'
-count_words(filename)
+# filename = r'text_files\great_gatsby.txt'
+# count_words(filename)
+# filename = r'text_files\pride_and_prejudice.txt'
+# count_words(filename)
