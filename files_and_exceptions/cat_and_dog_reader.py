@@ -4,7 +4,7 @@ def display_file_content(filename):
         with open(filename) as f:
             content = f.read()
     except FileNotFoundError:
-        print('this file does not exist')
+        pass
     else:
         print(content)
 
